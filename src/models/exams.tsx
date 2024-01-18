@@ -1,0 +1,36 @@
+interface Exams {
+  map(arg0: (exam: any, index: number) => JSX.Element): React.ReactNode;
+  id: number;
+  role_id: string | number | readonly string[] | undefined;
+  lms_id: number;
+  lms_title: string;
+  program_name: string;
+  name: string;
+  lms_document: string;
+  programphase_name: string;
+  lms_extension: string;
+  created_at: string;
+  subject_title: string;
+  exam_id: number;
+  exam_name: string;
+  examLevelId: string | number;
+  exam_duration: string;
+  exam_startdate: string;
+  exam_enddate: string;
+  program_id: string | number;
+  resultGrade: string | number;
+  batch_id: string | number;
+  totalmarks: number;
+  programphase_id: string | number;
+  registration_no: string | number;
+  grade_id: string | number;
+  subject_id: string | number;
+  exam_totalmarks: string | number;
+  exam_instructions: string;
+  exam_syllabus: string;
+  obtainedMarks: string;
+  image: string;
+  status_id: string | number;
+  length: any;
+  slice: any;
+}
